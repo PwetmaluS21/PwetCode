@@ -1,2 +1,2 @@
 # PwetCode
-School code
+Malupit na code ni Bautista
