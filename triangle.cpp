@@ -21,7 +21,7 @@ int main ()
                 cout << "□ □ "; //Ito po yung bahay yehey
             }
             else if (j>=5) {
-                cout << "— — "; //garage dito
+                cout << "— — "; //garage dito boogsh
             }
            
         }
