@@ -4,7 +4,7 @@
 using namespace std;
 int x[5],z,y,n,m,ctr,p;
 
-main()
+int main()
 {
     p=5;
     system ("cls");

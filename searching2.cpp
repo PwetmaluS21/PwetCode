@@ -6,7 +6,7 @@ char x[5];
 char y;
 int z;
 
-main()
+int main()
 {
     system ("cls");
     cout<<"Enter a name: ";

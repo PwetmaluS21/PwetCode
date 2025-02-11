@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-main()
+int main()
 {
     int FArray[10], SArray[10], AMerge[20];
     int n, m, x,y;
