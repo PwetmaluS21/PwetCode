@@ -23,5 +23,5 @@ int main()
             cout << "Value " << search << " is at index " << index << endl;
             else
             cout << "Value not found!" << endl;
-            system("pause");
+            //system("pause");
 }
