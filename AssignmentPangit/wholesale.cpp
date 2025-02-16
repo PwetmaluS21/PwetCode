@@ -21,7 +21,8 @@ int main () {
         print();
         cout << "Do you want to perform another calculation? (Y/N): ";
         cin >> choice;
-    } while (choice == 'Y' || choice == 'y');
+    }
+    while (choice == 'Y' || choice == 'y');
     return 0;
 }
 
