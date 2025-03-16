@@ -1,31 +1,28 @@
 #include <iostream>
-//#include <conio.h>
 #include <stack>
 using namespace std;
 
-stack<int> myStack1;
-stack<int> myStack2;
-int x, n;
-
 int main() {
-    for (x = 1; x <= 5; x++) {
-        cout << "Enter a number: ";
+    stack<int> A;
+    int x, n, ctr;
+
+    cout << "Enter the size of the stack: ";
+    cin >> x;
+
+    for (ctr = 1; ctr <= x; ctr++) {
+        cout << "Enter any element: ";
         cin >> n;
-        myStack1.push(n);
+        A.push(n);
     }
 
-    cout << "Contents of myStack1: " << endl;
-    while (!myStack1.empty()) {
-        cout << myStack1.top() << endl;
-        myStack2.push(myStack1.top());
-        myStack1.pop();
+    cout << "Stack size: " << A.size() << endl;
+
+    cout << "Stack contents: " << endl;
+    while (!A.empty()) {
+        cout << A.top() << endl;
+        A.pop();
     }
 
-    cout << "Transfering to myStacks2: \n" << endl;
-    while (!myStack2.empty()) {
-        cout << myStack2.top() << endl;
-        myStack2.pop();
-    }
-
+    cout << endl;
     return 0;
 }
